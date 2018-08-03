@@ -1,7 +1,9 @@
 import numpy as np
-from utils.sigmoid import sigmoid
+import time
+from copy import deepcopy
+from utils.sigmoid import sigmoid, step_function
+from utils.check_data import check_data
 from sklearn.datasets import load_iris
-from utils.step_function import step_function
 
 
 class Logistic_Regression():
@@ -24,7 +26,7 @@ class Logistic_Regression():
         y0_cost = -np.log(1 - h)
         return 1/m * np.sum(y * y1_cost + (1-y) * y0_cost)
 
-    def fit(self, X, y):
+    def _train(self, X, y):
         m = X.shape[0]
         n = X.shape[1]
         w, b = np.zeros((n, 1)), 0
@@ -41,25 +43,46 @@ class Logistic_Regression():
             curr_cost = self._cost(h, y)
             costs.append(curr_cost)
 
-            dz = (1/m) * (h - y)
+            dz = (1 / m) * (h - y)
             dw = np.dot(X.T, dz)
-            assert(dw.shape == w.shape)
+            assert (dw.shape == w.shape)
             db = np.sum(dz)
 
             w = w - self.learning_rate * dw
             b = b - self.learning_rate * db
 
             # Stop if the step of gradient is small enough
-            assert(prev_cost >= curr_cost)
+            assert (prev_cost >= curr_cost)
             if (prev_cost - curr_cost) <= self.epsilon and self.early:
                 break
 
-        print("# of Iterations: ", i)
-        self.paras["w"] = w
-        self.paras["b"] = b
+        print("Number of Iterations: ", i)
+        paras = {}
+        paras["w"] = w
+        paras["b"] = b
+        return paras
 
-        # LR = model(name="Logistic Regression", paras=parameters)
-        return self
+
+    def fit(self, X, y):
+        start = time.time()
+        X, y, c = check_data(X, y) # nb of classes
+
+        if c == 2:
+            self.paras = self._train(X, y)
+        elif c > 2:
+            for i in range(c):
+                y_copy = deepcopy(y)
+                for j in range(len(y)):
+                    if y_copy[j][0] == i:
+                        y_copy[j][0] = 1
+                    else:
+                        y_copy[j][0] = 0
+                print(y_copy.reshape(1, y_copy.shape[0]))
+                self.paras[i] = self._train(X, y_copy)
+
+        stop = time.time()
+        print("Time taken: ", "{0:.3}".format(stop - start), "seconds")
+        return self.paras
 
     def __repr__(self):
         return "Logistic Regression:" + str(self.paras)
@@ -72,27 +95,39 @@ class Logistic_Regression():
 
         return h
 
-    def predict_prob(self, X):
-        w = self.paras["w"]
-        b = self.paras["b"]
-
-        h = self._forward_propagate(X, w, b)
+    def predict_prob(self, X, c):
+        if c == 2:
+            w = self.paras["w"]
+            b = self.paras["b"]
+            h = self._forward_propagate(X, w, b)
+        else:
+            
+            for i in range(c):
+                parameter = self.paras[i]
+                w = parameter["w"]
+                b = parameter["b"]
+                h = self._forward_propagate(X, w, b)
         return h
 
 
 if __name__ == "__main__":
-    X = np.array([[0.7, 0.1, 0.9],
-                  [0.1, 0.8, 0.1],
-                  [0.8, 0.2, 0.8]])
-    y = np.array([1, 0, 1]).reshape(3, 1)
+    # X = np.array([[0.7, 0.1, 0.9],
+    #               [0.1, 0.8, 0.1],
+    #               [0.8, 0.2, 0.8]])
+    # y = np.array([1, 0, 1]).reshape(3, 1)
+    #
+    # X_test = np.array([[0.99, 0.3, 0.99],
+    #                   [0.8, 0.1, 0.7],
+    #                   [0.3, 0.7, 0.3]])
+    #
 
-    X_test = np.array([[0.99, 0.3, 0.99],
-                      [0.8, 0.1, 0.7],
-                      [0.3, 0.7, 0.3]])
+    iris = load_iris()
+    X, y = iris.data, iris.target
+    print(y.shape[0])
 
     lr = Logistic_Regression(early_stop=False)
     p = lr.fit(X, y)
     print(p)
 
-    y_hat = lr.predict(X_test)
-    print(y_hat)
+    # y_hat = lr.predict(X_test)
+    # print(y_hat)
