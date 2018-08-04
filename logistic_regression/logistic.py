@@ -15,6 +15,9 @@ class Logistic_Regression():
         self.epsilon = epsilon
         self.paras = {}
 
+    def __repr__(self):
+        return "Logistic Regression:" + str(self.paras)
+
     def _forward_propagate(self, X, w, b):
         z = np.dot(X, w) + b
         h = sigmoid(z)
@@ -24,7 +27,8 @@ class Logistic_Regression():
         m = y.shape[0]
         y1_cost = -np.log(h)
         y0_cost = -np.log(1 - h)
-        return 1/m * np.sum(y * y1_cost + (1-y) * y0_cost)
+        cost = 1/m * np.sum(y * y1_cost + (1-y) * y0_cost)
+        return cost
 
     def _train(self, X, y):
         m = X.shape[0]
@@ -56,12 +60,10 @@ class Logistic_Regression():
             if (prev_cost - curr_cost) <= self.epsilon and self.early:
                 break
 
-        print("Number of Iterations: ", i)
         paras = {}
         paras["w"] = w
         paras["b"] = b
         return paras
-
 
     def fit(self, X, y):
         start = time.time()
@@ -77,37 +79,44 @@ class Logistic_Regression():
                         y_copy[j][0] = 1
                     else:
                         y_copy[j][0] = 0
-                print(y_copy.reshape(1, y_copy.shape[0]))
                 self.paras[i] = self._train(X, y_copy)
 
         stop = time.time()
         print("Time taken: ", "{0:.3}".format(stop - start), "seconds")
         return self.paras
 
-    def __repr__(self):
-        return "Logistic Regression:" + str(self.paras)
+    def fit_plot(self):
+        pass
 
     def predict(self, X):
+        c = len(self.paras.keys()) # number of classes (1 means bi-class, 3+ means multi-class)
         h = self.predict_prob(X)
-        print(h)
-        for i in range(len(h)):
-            h[i][0] = step_function(0.5, h[i][0])
+        if c > 2:
+            h = np.argmax(h, axis=1)
+        else:
+            for i in range(len(h)):
+                h[i][0] = step_function(0.5, h[i][0])
 
         return h
 
-    def predict_prob(self, X, c):
-        if c == 2:
-            w = self.paras["w"]
-            b = self.paras["b"]
-            h = self._forward_propagate(X, w, b)
-        else:
-            
+    def predict_prob(self, X):
+        c = len(self.paras.keys())  # number of classes (1 means bi-class, 3+ means multi-class)
+        if X.ndim == 1:
+            X = X[np.newaxis, :]
+        if c > 2: # multi-class
+            m = X.shape[0]
+            H = []
             for i in range(c):
                 parameter = self.paras[i]
                 w = parameter["w"]
                 b = parameter["b"]
-                h = self._forward_propagate(X, w, b)
-        return h
+                h_i = self._forward_propagate(X, w, b)
+                H.append(h_i)
+        else: # bi-class
+            w = self.paras["w"]
+            b = self.paras["b"]
+            H = self._forward_propagate(X, w, b)
+        return np.array(H).reshape(c, m).T # reshape it to (m, c)
 
 
 if __name__ == "__main__":
@@ -123,11 +132,10 @@ if __name__ == "__main__":
 
     iris = load_iris()
     X, y = iris.data, iris.target
-    print(y.shape[0])
 
     lr = Logistic_Regression(early_stop=False)
     p = lr.fit(X, y)
-    print(p)
 
-    # y_hat = lr.predict(X_test)
-    # print(y_hat)
+    h = lr.predict_prob(X)
+    y_hat = lr.predict(X)
+    print(y_hat)
