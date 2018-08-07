@@ -5,10 +5,11 @@ from utils.sigmoid import sigmoid, step_function
 from utils.check_data import check_data
 from sklearn.datasets import load_iris
 
+# Author: Zhengting Li <heyimzhengting@gmail.com>
 
 class Logistic_Regression():
 
-    def __init__(self,  early_stop=True, iteration=10000, learning_rate=0.01, epsilon=0.00003):
+    def __init__(self,  early_stop=False, iteration=10000, learning_rate=0.01, epsilon=0.00003):
         self.iter = iteration
         self.early = early_stop
         self.learning_rate = learning_rate
@@ -19,6 +20,22 @@ class Logistic_Regression():
         return "Logistic Regression:" + str(self.paras)
 
     def _forward_propagate(self, X, w, b):
+        """Computes h = sigmoid(w*x + b)
+
+           Parameters
+           ----------
+           X : ndarray, shape (m_samples, n_features)
+               Training data.
+           w : ndarray, shape (n_features, 1)
+               Coefficient vector.
+           y : ndarray, shape (m_samples, 1)
+               Array of labels.
+               
+           Returns
+           -------
+           h : ndarray, shape(m_samples, 1)
+               Activation values (hypothesis) (probability to be class 1)
+           """
         z = np.dot(X, w) + b
         h = sigmoid(z)
         return h
@@ -133,9 +150,10 @@ if __name__ == "__main__":
     iris = load_iris()
     X, y = iris.data, iris.target
 
-    lr = Logistic_Regression(early_stop=False)
+    lr = Logistic_Regression()
     p = lr.fit(X, y)
 
     h = lr.predict_prob(X)
     y_hat = lr.predict(X)
     print(y_hat)
+    print(iris.target)

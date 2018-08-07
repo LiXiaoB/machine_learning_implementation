@@ -1,4 +1,4 @@
-# ML Implementation
+# ML Implementation from Scratch
 
 ## Statistical ML Algorithms
 ### Logistic Regression
