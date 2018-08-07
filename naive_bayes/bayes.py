@@ -20,8 +20,6 @@ class Naive_Bayes():
            """
         self.smooth = smooth
 
-
-
     def conditional_prob(self):
         pass
 
@@ -30,6 +28,7 @@ class MultinomialNB():
 
     def __init__(self, smooth=1):
         self.smooth = smooth
+        self.cond_prob = None
 
     def _prior_prob(self, y):
         y_unique, y_counts = np.unique(y, return_counts=True)
@@ -48,7 +47,7 @@ class MultinomialNB():
     def _conditional_prob(self, data_split):
         y_unique = list(data_split.keys()) # number of classes
         n = data_split[y_unique[0]].shape[1] # number of features
-        # print(data_split)
+        print(data_split)
         counts = []
         totals = []
         for y in data_split.keys():
@@ -58,22 +57,38 @@ class MultinomialNB():
             totals.append(total)
         counts = np.array(counts)
         totals = np.array(totals).reshape(len(y_unique), 1)
-        cond_prob = (counts + self.smooth) / (totals + n)
+        self.cond_prob = (counts + self.smooth) / (totals + n)
         print(counts)
         print(totals)
-        print(cond_prob)
+
+    def fit(self, X, y):
+        X = check_data.check_X(X)
+        y, c = check_data.check_y(y)
+        splitted_data = self._split_data(X, y)
+        self._conditional_prob(splitted_data)
 
     def predict(self, X):
         pass
 
 
 if __name__ == "__main__":
-    iris = load_iris()
-    X, y = iris.data, iris.target
+    # iris = load_iris()
+    # X, y = iris.data, iris.target
 
     nb = MultinomialNB()
-    nb._prior_prob(y)
-    data_split = nb._split_data(X, y)
-    nb._conditional_prob(data_split)
+
+    # Multinomial Toy Data
+    X = np.array([[2, 1, 0, 0, 0, 0],
+         [2, 0, 1, 0, 0, 0],
+         [1, 0, 0, 1, 0, 0],
+         [1, 0, 0, 0, 1, 1]])
+
+    y = np.array([1, 1, 1, 0])
+
+    X_test = np.array([[3, 0, 0, 0, 1, 1]])
+    X_y = np.array([1])
+
+    nb.fit(X, y)
+    print(nb.cond_prob)
 
 
