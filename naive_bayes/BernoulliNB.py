@@ -1,8 +1,5 @@
 import numpy as np
 from utils import check_data
-import pandas as pd
-from sklearn.datasets import load_iris
-
 
 class BernoulliNB():
     def __init__(self, smooth=True):
@@ -58,12 +55,12 @@ class BernoulliNB():
 
 
 
-
-clf = BernoulliNB()
-X = np.array([[1,0,1],[1,1,1],[0,0,1]])
-Y = np.array([1, 2, 0])
-x = np.concatenate((np.array([[2],[3]]),np.ones((2,1),dtype=int)), axis = 1)
-y = np.array([[1,0],[4,0]])
-clf.fit(X, Y)
-print(clf.predict(X))
-print(clf.prob)
+if __name__ == "__main__":
+    clf = BernoulliNB()
+    X = np.array([[1,0,1],[1,1,1],[0,0,1]])
+    Y = np.array([1, 2, 0])
+    x = np.concatenate((np.array([[2],[3]]),np.ones((2,1),dtype=int)), axis = 1)
+    y = np.array([[1,0],[4,0]])
+    clf.fit(X, Y)
+    print(clf.predict(X))
+    print(clf.prob)
