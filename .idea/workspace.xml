@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="976b4683-b29c-44d5-aef9-0f8a52f7afc5" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naive_bayes/BernoulliNB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Implementation.iml" afterPath="$PROJECT_DIR$/.idea/Implementation.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naive_bayes/bayes.py" afterPath="$PROJECT_DIR$/naive_bayes/bayes.py" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +23,13 @@
       <file leaf-file-name="bayes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="204">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+            <state relative-caret-position="-307">
+              <caret line="104" column="64" lean-forward="false" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -28,6 +37,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="BernoulliNB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/naive_bayes/BernoulliNB.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,6 +55,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+=======
+      <file leaf-file-name="check_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
               <folding />
             </state>
           </provider>
@@ -63,6 +80,9 @@
     <findStrings>
       <find>zeros</find>
       <find>print</find>
+      <find>c</find>
+      <find>data_split</find>
+      <find>cond_prob</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,10 +100,10 @@
         <option value="$PROJECT_DIR$/Naive_Bayes/bayes.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/logistic_regression/logistic.py" />
-        <option value="$PROJECT_DIR$/utils/check_data.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/optimizer/__init__.py" />
         <option value="$PROJECT_DIR$/knn/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/check_data.py" />
         <option value="$PROJECT_DIR$/naive_bayes/bayes.py" />
         <option value="$PROJECT_DIR$/naive_bayes/BernoulliNB.py" />
       </list>
@@ -352,6 +372,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14829822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28944618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28926283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -677,16 +701,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/check_data.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="527">
           <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+=======
+        <state relative-caret-position="18">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/naive_bayes/BernoulliNB.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="295">
           <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+=======
+        <state relative-caret-position="-307">
+          <caret line="104" column="64" lean-forward="false" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
