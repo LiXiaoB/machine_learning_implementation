@@ -32,6 +32,7 @@ def check_y(y):
         y = y[:, np.newaxis]
     return y, c
 
+
 # X = np.array([[0.7, 0.1, 0.9],
 #               [0.1, 0.8, 0.1],
 #               [0.8, 0.2, 0.8]])

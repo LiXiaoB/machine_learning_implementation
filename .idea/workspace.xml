@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="976b4683-b29c-44d5-aef9-0f8a52f7afc5" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knn/knn.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knn/tests/test_knn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+<<<<<<< HEAD
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naive_bayes/BernoulliNB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Implementation.iml" afterPath="$PROJECT_DIR$/.idea/Implementation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naive_bayes/bayes.py" afterPath="$PROJECT_DIR$/naive_bayes/bayes.py" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +24,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="knn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knn/knn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
               <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+=======
+      <file leaf-file-name="bayes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="204">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+            <state relative-caret-position="-307">
+              <caret line="104" column="64" lean-forward="false" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -29,6 +51,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="test_knn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knn/tests/test_knn.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,6 +60,34 @@
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="BernoulliNB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naive_bayes/BernoulliNB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+=======
+      <file leaf-file-name="check_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
+              <folding />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
             </state>
           </provider>
         </entry>
@@ -79,16 +130,26 @@
         <option value="$PROJECT_DIR$/knn/__init__.py" />
         <option value="$PROJECT_DIR$/utils/check_data.py" />
         <option value="$PROJECT_DIR$/naive_bayes/bayes.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/knn/tests/test_knn.py" />
         <option value="$PROJECT_DIR$/knn/knn.py" />
+=======
+        <option value="$PROJECT_DIR$/naive_bayes/BernoulliNB.py" />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="45" />
     <option name="y" value="-14" />
     <option name="width" value="1876" />
     <option name="height" value="1095" />
+=======
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,6 +171,7 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="implementation" />
@@ -208,6 +270,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+          <expand>
+            <path>
+              <item name="machine_learning_implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="logistic_regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_implementation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="naive_bayes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -216,6 +297,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/fluent_python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -237,6 +319,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.test_knn">
     <configuration default="false" name="logistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +376,10 @@
       <method />
     </configuration>
     <configuration default="false" name="test_knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.BernoulliNB">
+    <configuration name="BernoulliNB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -304,6 +391,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Implementation" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/tests/test_knn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -323,10 +411,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Implementation" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/knn.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naive_bayes/BernoulliNB.py" />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,6 +483,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.logistic" />
       <item index="1" class="java.lang.String" itemvalue="Python.check_data" />
@@ -407,6 +498,90 @@
         <item index="2" class="java.lang.String" itemvalue="Python.bayes" />
         <item index="3" class="java.lang.String" itemvalue="Python.logistic" />
         <item index="4" class="java.lang.String" itemvalue="Python.check_data" />
+=======
+    <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naive_bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naive_bayes/bayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="check_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/check_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="logistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logistic_regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logistic_regression/logistic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/sigmoid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.logistic" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sigmoid" />
+      <item index="2" class="java.lang.String" itemvalue="Python.check_data" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bayes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BernoulliNB" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.BernoulliNB" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bayes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.logistic" />
+        <item index="3" class="java.lang.String" itemvalue="Python.check_data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sigmoid" />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
       </list>
     </recent_temporary>
   </component>
@@ -427,6 +602,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="45" y="-14" width="1876" height="1095" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -434,12 +610,25 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2892057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14829822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28944618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28926283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -606,8 +795,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Naive_Bayes/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Naive_Bayes/bayes.py" />
+    <entry file="file://$PROJECT_DIR$/naive_bayes/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -623,6 +812,148 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_regression/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_regression/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_regression/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/step_function.py" />
+    <entry file="file://$PROJECT_DIR$/utils/sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/step_function.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_regression/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/optimizer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,19 +965,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+    <entry file="file://$PROJECT_DIR$/logistic_regression/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="-442">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/naive_bayes/bayes.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/check_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="527">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+=======
+        <state relative-caret-position="18">
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/BernoulliNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="216">
           <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="16" />
           <folding />
@@ -667,6 +1028,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="295">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+=======
+        <state relative-caret-position="-307">
+          <caret line="104" column="64" lean-forward="false" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
+>>>>>>> b79967d548387b4b109698828bc9ac0727753e71
+>>>>>>> ff55410300123c5abb360b01c694e10d1ddfce39
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
