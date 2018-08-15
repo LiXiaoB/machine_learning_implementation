@@ -1,6 +1,13 @@
 import numpy as np
 
 
+def normalize(X):
+    mu = np.mean(X, axis=0)
+    std = np.std(X, axis=0)
+    print(mu)
+    print(std)
+    return X - mu / std
+
 def check_data(X, y):
     X = check_X(X)
     y, c = check_y(y)
@@ -32,8 +39,16 @@ def check_y(y):
         y = y[:, np.newaxis]
     return y, c
 
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
 
-# X = np.array([[0.7, 0.1, 0.9],
+def step_function(threshold, h):
+    if h > threshold:
+        return 1
+    return 0
+
+
+        # X = np.array([[0.7, 0.1, 0.9],
 #               [0.1, 0.8, 0.1],
 #               [0.8, 0.2, 0.8]])
 # y = np.array([1, 0, 1]).reshape(3, 1)

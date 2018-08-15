@@ -4,7 +4,7 @@ from knn import knn
 from sklearn.datasets import load_iris
 
 
-class TestkNearestNeighbor(unittest.TestCase):
+class TestKNearestNeighbor(unittest.TestCase):
 
     def test_distance(self):
         x1 = np.array([[1, 3, 5]])
