@@ -2,7 +2,7 @@ import numpy as np
 from utils import check_data
 
 
-class kNNBase():
+class KNNBase():
     def __init__(self, k, norm=2):
         self.k = k
         self.norm = norm
@@ -18,7 +18,7 @@ class kNNBase():
         return D
 
 
-class kNNClassifier(kNNBase):
+class KNNClassifier(KNNBase):
 
     def __init__(self, k, norm=2):
         super().__init__(k, norm=norm)
@@ -56,7 +56,7 @@ class kNNClassifier(kNNBase):
 
 
 
-class kNNRegression(kNNBase):
+class KNNRegression(KNNBase):
 
     def __init__(self, k):
         super().__init__(k, norm=2)
