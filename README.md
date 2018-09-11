@@ -1,5 +1,5 @@
 # ML Implementation from Scratch
-This project is my personal implementations of ML algorithms powered by Numpy, scipy, Pandas and Matplotlib. With easy-to-read documents/comments, it can be used for educational purpose.
+This project is my personal implementations of ML algorithms powered by Numpy, Scipy and Matplotlib. With its easy-to-read documents/comments, it can be used for educational purpose.
 
 Formula reference books:
 - *Bishop's [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/people/cmbishop/#!prml-book)*
